@@ -14,7 +14,7 @@ In Xojo: **Build Settings → Android → Dependencies**, add the line:
 com.github.Kongduino:XojoUsbAttach:1.0.0
 ```
 
-That's all: Gradle (through [JitPack](https://jitpack.io/#Kongduino/XojoUsbAttach)) merges the library's manifest and resources into the app. Nothing to call from Xojo code. To talk to the device, use for example [usb-serial-for-android](https://github.com/mik3y/usb-serial-for-android), or the `USBSerial` class of [MQTT_Xojo](https://github.com/Kongduino/MQTT_Xojo), which wraps it.
+That's all: Gradle (through [JitPack](https://jitpack.io/#Kongduino/XojoUsbAttach)) merges the library's manifest and resources into the app. Nothing to call from Xojo code. To talk to the device, use for example [usb-serial-for-android](https://github.com/mik3y/usb-serial-for-android), or [XojoAndroidUSBSerial](https://github.com/Kongduino/XojoAndroidUSBSerial), a Xojo class that wraps it, with an example app.
 
 ## What's inside
 
